@@ -7,3 +7,49 @@
 /*-------------------------------Section 4--------------------------------*/
 
 /*-------------------------------Section 5--------------------------------*/
+.ftr-wrapper {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    border-top: 1px solid #EAE6E5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ftr-top {
+    width: 100%;
+    display:block;
+}
+
+.ftr-main {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.ftr-social {
+    float: left;
+    padding-right: 40px;
+}
+
+.ftr-location {
+    float: left;
+    padding-left: 40px;
+}
+
+.ftr-icon-list {
+    display: inline-block;
+}
+
+.ftr-icon {
+    float: left;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+
+
+.ftr-bottom {
+    padding: 15px 0px;
+    background-color: #EAE6E5;
+}
