@@ -28,6 +28,7 @@
     margin-top: -10px;
     font-size: 48px;
     letter-spacing: 5px;
+    font-weight: lighter;
 }
 .body-wrapper .btn:hover{
     color: black;
