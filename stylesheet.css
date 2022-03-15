@@ -4,6 +4,8 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 /*-------------------------------Section 1--------------------------------*/
 header {
@@ -15,6 +17,7 @@ header {
 
 .menu {
   text-decoration: none;
+  color:black
 }
 /*-------------------------------Section 2--------------------------------*/
 .body-wrapper {
@@ -28,6 +31,7 @@ header {
   padding-top: 10%;
   justify-content: center;
   text-align: center;
+  
 }
 
 .body-wrapper h1 {
@@ -58,19 +62,57 @@ header {
   color: white;
   padding: 10px 0px 20px 0px;
   opacity: 0.8;
+  transition-duration: 0.5s;
 }
 
 /*-------------------------------Section 3--------------------------------*/
+.product-items img {
+    width: 75%;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.product-items img:hover {
+    width: 77%;
+    transition-duration: 0.5s;
+}
+
 .menu-wrapper {
   width: 80%;
-  height: 800px;
+  height: 700px;
   /* bg-color bisa dihapus aja, ini biar bantu lihat aja */
-  background-color: #c4c4c4;
+  /* background-color: #c4c4c4; */
   margin: 0 auto;
   text-align: center;
 }
-.menu-container {
+
+.heading {
+    padding-top: 25px;
 }
+
+.heading h2 {
+    font-size: 50px;
+}
+
+.heading p {
+    padding-top: 5px;
+    font-size: larger;
+}
+
+.item {
+    float: left;
+    width: 25%;
+}
+
+.item p {
+    font-size:small;
+}
+
+.product-items {
+    padding-top: 50px;
+}
+
+
 /*-------------------------------Section 4--------------------------------*/
 .about-wrapper {
   width: 80%;
@@ -124,6 +166,7 @@ header {
   position: absolute;
   text-align: center;
   border-top: 1px solid #eae6e5;
+  margin-top: 50px;
 }
 
 .ftr-top {
